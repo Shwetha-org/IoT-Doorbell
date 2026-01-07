@@ -32,6 +32,13 @@ IoT Doorbell/
 │   └── rekognition_access_server.py  # Flask server + Rekognition + secure door UI
 └── tools/
     └── rekognition_enroll_face.py    # Helper to enroll faces into Rekognition
+└── img/
+    ├── door-camera-ui.png          
+    ├── secure-door-allowed.png    
+    ├── secure-door-denied.png      
+    ├── hardware-setup-green.png    
+    └── hardware-setup-red.png
+
 ```
 
 ## Components
@@ -67,6 +74,27 @@ Helper script that:
 
 - Reads a local JPEG (for example, `alice.jpeg`) from the `tools/` folder.
 - Calls `rekognition.index_faces` to add that face into the configured collection with a specific `ExternalImageId` that matches the allow-list used by the server.
+
+## Images
+
+**Door camera UI (local)** – latest snapshot with manual allow/deny buttons and LED feedback.
+
+![Door camera UI](img/door-camera-ui.png)
+
+**Secure door camera – access granted** – Rekognition recognizes an enrolled person and grants access.
+
+![Secure door camera – access granted](img/secure-door-allowed.png)
+
+**Secure door camera – access denied** – non-enrolled face is shown as unknown and access is denied.
+
+![Secure door camera – access denied](img/secure-door-denied.png)
+
+**Hardware setup** – Raspberry Pi, camera, button, buzzer, and LEDs wired on a breadboard.
+
+![Hardware setup – green LED](img/hardware-setup-green.png)
+
+![Hardware setup – red LED](img/hardware-setup-red.png)
+
 
 ## Prerequisites
 
