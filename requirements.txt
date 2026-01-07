@@ -1,0 +1,7 @@
+
+flask
+gpiozero
+opencv-python
+boto3
+pillow
+requests
