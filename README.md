@@ -91,9 +91,9 @@ Helper script that:
 
 **Hardware setup** – Raspberry Pi, camera, button, buzzer, and LEDs wired on a breadboard.
 
-![Hardware setup – green LED](img/hardware-setup-green.png)
+![Hardware setup – blue LED](img/hardware-setup-access-approved.png)
 
-![Hardware setup – red LED](img/hardware-setup-red.png)
+![Hardware setup – red LED](img/hardware-setup-access-denied.png)
 
 
 ## Prerequisites
