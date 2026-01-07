@@ -89,12 +89,7 @@ Helper script that:
 
 ![Secure door camera – access denied](img/secure-door-denied.png)
 
-**Hardware setup** – Raspberry Pi, camera, button, buzzer, and LEDs wired on a breadboard.
-
-![Hardware setup – blue LED](img/hardware-setup-access-approved.png)
-
-![Hardware setup – red LED](img/hardware-setup-access-denied.png)
-
+**Hardware setup** – Raspberry Pi, camera, button, buzzer, and LEDs wired on a breadboard. See images in img/ folder!
 
 ## Prerequisites
 
